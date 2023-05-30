@@ -1,0 +1,712 @@
+@media(max-width:1350px){
+	div.say__top::after{
+		right: 0px;
+	}	
+}
+@media(max-width:1200px){
+	div.info__top::before{
+		right:0px;
+	}
+	.tg-channels {
+		flex-wrap: wrap;
+	}
+
+	/*advantages*/
+
+	div.accounts__top-inner::after {
+		right: 0px;
+	}
+	.advantages__content {
+		justify-content: center;
+	}
+	.advantages__content-title {
+		max-width: 700;
+	}
+	.advantages__content-item {
+		max-width: 100%;
+	}
+	.advantages__list-left {
+		width: 514px;
+    	height: 512px;
+	}
+	.advantages__list-right {
+		width: 521px;
+    	height: 514px;
+	}
+	.advantages__list-item {
+    	line-height: 27px;
+    	margin-bottom: 35px;
+	}
+
+	/*payments*/
+	.payments__top{
+		text-align:center; 
+	}
+	.payments__title{
+		max-width: 100%;
+	}
+	.payments__content {
+		flex-direction: column-reverse;
+		grid-gap: 100px;
+	}
+	/*reviews*/
+
+	.reviews__row{
+		justify-content: center;
+	}
+	/*rates*/
+
+	.rates-row{
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.rates-row__item{
+		max-width: 390px;
+
+	}
+
+}
+
+@media(max-width:1110px){
+	.burger__menu-btn{
+		display: block;
+	}
+	.header__menu-list{
+		display: none;
+	}
+	.header__inner{
+		padding-bottom: 83px;
+	}
+	.header__content{
+		flex-direction: column;
+		align-items: center;
+		
+	}
+
+	
+	.header__left {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 110px;
+	}
+	.header__right{
+		margin-bottom: 110px;
+	}
+
+	.header__bottom{
+		flex-wrap: wrap;
+		position: static;
+		transform: none;
+	}
+
+	/*info*/
+	.info__inner {
+    padding-top: 112px;
+	}
+	.info__top {
+    	padding-bottom: 26px
+	}
+	.info__item-wrap{
+		justify-content: space-between;
+	}
+	.info__item {
+		margin-bottom: 33px;
+		max-width: 400px;
+		
+	}
+	.info__item-img{
+		max-width: 400px;
+	}
+	.info__item-img3{
+		margin-right: 0;
+	}
+	div.info__item-img3::after{
+		display: none;
+	}
+	.info__item-title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 8px;
+	}
+	.info__list li{
+		margin-bottom: 20px;
+	}
+	div.info__item-dots::after{
+		display: none;
+	}
+	.application{
+		padding: 35px 43px 35px 43px;
+	}
+	.info__item-text {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 13px;
+	}
+	.application__descr-text {
+    font-size: 11.507px;
+    line-height: 20px;
+	}
+
+	/*guarantee*/
+
+	.guarantee__items{
+		justify-content: center;
+	}
+	div.guarantee__inner::before {
+    width: 135px;
+	}
+
+	/*achievements*/
+	.achievements__top{
+		text-align: center;
+	}
+	.achievements__title{
+		text-align: center;
+		max-width: 100%;
+	}
+	div.achievements__inner::before{
+		display: none;
+	}
+	div.achievements__inner::after{
+		display: none;
+	}
+	.achievements__row{
+		justify-content: center;
+	}
+	.tg-channels{
+		justify-content: center;
+	}
+	.tg-channels__item-text{
+		max-width: 500px;
+	}
+
+	/*advantages*/
+	div.accounts__top-inner::after {
+		display: none;
+	}
+	.advantages__top {
+    	padding: 83px 0 51px;
+	}
+	
+	.list__problems{
+		right: 0px;
+	}
+
+	/*reviews*/
+
+	div.reviews__top::before{
+		width: 93px;
+	}
+
+	/*rates*/
+
+	div.rates__top::before {
+		display: none;
+	}
+	.rates__content {
+ 
+    	flex-direction: column;
+    	display: flex;
+    	align-items: center;
+	}
+
+	.rates-row{
+		flex-direction: column;
+		justify-content: center;
+	}
+
+
+	
+	.paymants {
+    	padding: 28px 59px 250px 59px;
+    	flex-direction: column;
+    	max-width: 390px;
+	}
+	.paymants__item-img {
+    	right: 0px; 
+    	left: 11px;
+    	width: 352px;
+	}
+	/*say*/
+	.say__row {
+    	justify-content: center;
+    	grid-gap: 30px;
+	}
+	/* accounts*/
+	.accounts__content  div:nth-child(3) {
+  		order: 4;
+	}
+	.accounts__content  div:nth-child(4) {
+  		order: 3;
+	}
+	/*footer*/
+	.footer__inner{
+		grid-gap: 50px;
+	}
+	
+}
+@media(max-width: 890px){
+	div.info__top::before{
+		display: none;
+	}
+	.info__item-wrap{
+		flex-direction: column;
+		align-items: center;
+	}
+	.info__item-wrap  div:nth-child(3) {
+  		order: 4;
+	}
+	.info__item-wrap  div:nth-child(4) {
+  		order: 3;
+	}
+	/*guarantee*/
+
+	div.guarantee__inner::before {
+    	display: none;
+	}
+	/*advantages*/
+	.advantages__content-title {
+    	font-size: 22px;
+    	line-height: 24px;
+    	margin-bottom: 16px;
+	}
+	.advantages__list {
+    	margin-bottom: 62px;
+    	
+	}
+	.advantages__list-left{
+		width: 422px;
+	}
+	.advantages__list-right{
+		width: 407px;
+    	height: 407px;
+	}
+	.advantages__list-item {
+    	font-size: 15px;
+    	line-height: 21px;
+    	margin-bottom: 13px;
+	}
+	/*payments*/
+	.payments__left-text {
+		right: 0;
+		bottom:-107px;
+	}
+	div.payments__left-text::after {
+		bottom:25px;
+		transform: rotate(90deg);
+	}
+
+	/*steps*/
+	div.steps__top::before{
+		display: none;
+	}
+
+	/*reviews*/
+
+	div.reviews__top::before{
+		display: none;
+	}
+	/* accounts*/
+	div.accounts__top::after {
+		display: none;
+	}
+	/*footer*/
+	.footer__inner{
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer__item {
+    text-align: center;
+	}
+	.footer__item-btn {
+    width: 300px;
+	}
+
+}
+
+@media(max-width: 612px){
+	.menu__hidden-inner{
+		max-width: 100%;
+		text-align: center;
+	}
+	.menu__hidden{
+		align-items: center;
+	}
+	.header__link-wrap{
+		display: none;
+	}
+	.header__title {
+    margin-bottom: 13px;
+	}
+	.title {
+    font-size: 38px;
+    line-height: 45px;
+	}
+	.header__content-text {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 26px;
+	}
+	.header__right {
+    width: 300px;
+    height: 300px;
+	}
+	.header__right-img{
+		width: 200px;
+		top: -21px;
+	}
+	.header__right::after {
+    width: 89px;
+    height: 69px;
+    background-size: contain;
+	}
+	.header__right::before {
+    width: 48px;
+    height: 48px;
+	}
+	.header__bottom-item {
+    padding: 31px 32px 37px;
+    max-width: 275px;
+	}
+	.header__bottom-text {
+    font-size: 13px;
+    line-height: 24px;
+	}
+	.header__buttons{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.header__button{
+		max-width: 261px;
+		margin-bottom: 30px;
+	}
+	.header__left-link{
+		max-width: 261px;
+		
+	}
+
+	/*guarantee*/
+
+	.guarantee__top {
+    	padding-top: 73px;
+    	padding-bottom: 60px;
+	}
+	.title {
+    	font-size: 37px;
+    	font-weight: 700;
+    	line-height: 46px;
+	}
+	.guarantee__text {
+    	font-size: 18px;
+    	line-height: 22px;
+	}
+	.guarantee__item {
+		padding: 27px 25px 35px;
+    	margin-bottom: 29px;
+	}
+	.guarantee__item-text {
+    	margin-left: 24px;
+    	font-size: 13px;
+    	line-height: 24px;
+	}
+
+	/*achievements*/
+	.tg-channels {
+    	padding: 44px 0px;
+	}
+	.achievements__row-tile {
+    	font-size: 37px;
+    	line-height: 48px;
+	}
+	.achievements__row-text {
+    	font-size: 15px;
+    	line-height: 25px;
+	}
+	.tg-channels__link-img {
+    	width: 300px;
+	}
+	.tg-channels__item-text {
+    	max-width: 300px;
+    	font-size: 16px;
+    	line-height: 24px;
+	}
+	/*payments*/
+	.payments__left-img{
+		width: 339px;
+	}
+	div.payments__left-inner::before{
+		right: -38px;
+	}
+	/*accounts*/
+	.accounts__content-img {
+    	
+    	max-width: 400px;
+	}
+	/*footer*/
+	.footer__inner{
+		grid-gap: 30px;
+	}
+
+}
+@media(max-width: 455px){
+	.block__hidden{
+		height: 121px;
+	}
+	.block__hidden-cont {
+		flex-direction: column;
+		height: 121px;
+	}
+	.block__hidden-text{
+		margin-bottom: 10px;
+	}
+	.header__content {
+    padding-top: 30px;
+	}
+	.header__text {
+    font-size: 12px;
+	}
+	.title {
+    font-size: 32px;
+    line-height: 35px;
+	}
+	.header__content-text {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 20px;
+	}
+	.header__left {
+    margin-bottom: 50px;
+	}
+	.header__right {
+    width: 289px;
+    height: 288px;
+	}
+
+	/*info*/
+	.title {
+    font-size: 28px;
+    line-height: 30px;
+	}
+	.info__item {
+    margin-bottom: 13px;
+	}
+	.info__item-title {
+    font-size: 18px;
+    line-height: 23px;
+	}
+	.info__item-text {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 13px;
+	}
+	.info__item-img {
+    max-width: 290px;
+	}
+	.info__list li {
+    margin-bottom: 7px;
+	}
+	.info__list li {
+    font-size: 14px;
+    line-height: 28px;
+	}
+	.application {
+    padding: 20px 17px 20px 17px;
+	}
+	.info__item-title {
+    font-size: 15px;
+    line-height: 19px;
+	}
+	.info__item-text {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 11px;
+	}
+	.tg-btn {
+		padding: 16px 32px;
+	}
+	.application__button {
+    margin-bottom: 9px;
+	}
+	.application__descr-text {
+    font-size: 10.507px;
+    line-height: 14px;
+	}
+	/*guarantee*/
+	.guarantee__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.guarantee__item-text{
+		margin-left: 0;
+	}
+	/*advantages*/
+	.advantages__content-title {
+    	font-size: 21px;
+    	line-height: 23px;
+
+	}
+	.advantages__list-left {
+    	width: 320px;
+    	height: 316px;
+    	margin-bottom: 90px;
+	}
+	.advantages__list-right {
+    	width: 320px;
+    	height: 316px;
+	}
+	.advantages__list-item {
+    	font-size: 14px;
+    	line-height: 19px;
+    	margin-bottom: 11px;
+	}
+
+	/*payments*/
+
+	div.payments__left-inner::before {
+		display: none;
+	}
+	div.payments__left-inner::after {
+		display: none;
+	}
+	.payments__left{
+		width: 273px;
+    	height: 273px;
+	}
+	.payments__left-inner{
+		width: 273px;
+    	height: 273px;
+	}
+	.payments__left-img {
+    	width: 266px;
+    	position: absolute;
+    	top: -11%;
+    	left: 18px;
+	}
+	.paymants {
+    max-width: 335px;
+	}
+	
+
+	/*steps*/
+	.steps__content-item{
+		flex-direction: column;
+		padding: 25px 22px;
+
+	}
+	.steps__content-num {
+    	line-height: 63px;
+	}
+	.steps__content-text {
+    	line-height: 24px;
+	}
+	/*rates*/
+	.paymants {
+    	padding: 28px 39px 250px 39px;
+	}
+	.payments__btn-wrap {
+
+    	flex-wrap: wrap;
+   
+    	justify-content: center;
+	}
+	.paymants__item-img {
+    	
+    	left: 25px;
+    	width: 272px;
+	}
+	.rates-row__box-num {
+    	
+    	font-size: 38px;
+    	line-height: 43px;
+	}
+	/*say*/
+	div.say__top::after {
+    	display: none;
+	}
+	.say__row{
+		flex-direction: column;
+
+	}
+	.say__video-img {
+    	
+    	max-width: 269px;
+	}
+	.say__video-link{
+		max-width: 269px
+	}
+	/*accounts*/
+	.accounts__content-img {
+    	
+    	max-width: 300px;
+	}
+
+}
+
+@media(max-width:355px){
+	.advantages__top {
+    	padding: 63px 0 43px;
+	}
+
+	.title {
+    	font-size: 26px;
+    	line-height: 27px;
+	}
+
+	.advantages__top-text {
+    	font-size: 17px;
+    	line-height: 27px;
+	}
+
+	.advantages__list-item {
+		padding-left: 39px;
+   		 font-size: 12px;
+    	line-height: 17px;
+    	margin-bottom: 10px;
+	}
+	.advantages__list-left {
+    	width: 278px;
+    	height: 277px;
+	}
+
+	.advantages__list-right {
+    	width: 278px;
+    	height: 276px;
+	}
+	/*rates*/
+
+	.paymants__item-text {
+    	font-size: 14px;
+    	line-height: 17px;
+
+	}
+	.paymants {
+    	padding: 28px 5px 200px 5px;
+   
+    	max-width: 300px;
+	
+	}
+	
+	.paymants__item-img {
+    	width: 237px;
+	}
+
+	/*faq*/
+	.accordeon__content-text {
+    	font-size: 16px;
+    	line-height: 26px;
+	}
+	/*accounts*/
+	.accounts__content-img {
+    	
+    	max-width: 239px;
+	}
+	.footer__item-btn {
+    	width: 100%;
+	}
+}
+
